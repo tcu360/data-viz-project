@@ -1,0 +1,43 @@
+
+body {
+margin: auto;
+width: 100%;
+}
+
+#background {
+background-color: gray;
+}
+
+
+#banner {
+	background-image: url(frog.jpg);
+	background-repeat: repeat;
+	background-position: left top;
+	border: black 1px solid;
+	padding: 100px;
+}
+
+#textbox {
+	border: black 1px solid;
+	background-color: white;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin: 80px;
+	color: #4d0099;
+}
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+
+  #link {
+  	text-align: center;
+  	border: solid black 1px;
+  	padding: 30px;
+  	background-color: white;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 20px;
+  }
