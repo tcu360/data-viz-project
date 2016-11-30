@@ -1,0 +1,50 @@
+#feature-content{
+	margin: auto;
+	width: 80%;
+}
+
+#header{
+	width: 80%;
+}
+
+h1{
+	text-align: center;
+	padding: 50px;
+}
+
+#feature-description{
+	width: 80%;
+	margin-bottom: 50px;
+}
+
+#feature-data{
+	width: 80%;
+	margin-bottom: 50px;
+}
+
+.col-sm-6 img{
+	float: left;
+	border-radius: 50%;
+	width: 15%;
+}
+
+.col-sm-6{
+	background: #F2F2F2;
+}
+
+#profile-pic{
+	width: 200px;
+}
+
+.bio{
+	float: right;
+}
+
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 19px;
+	color: #4d0099;
+}
+
+
+
