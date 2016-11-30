@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+#banner {
+  background-image: url(http://del.h-cdn.co/assets/16/18/980x490/landscape-1462545626-macaroni-and-cheese-close-up.jpg);
+  height: 100px;
+  width: 100%;
+}
+
+.col-sm-6 {
+	height: 300px;
+	border-color: black;
+	border: solid;
+	font-size: 14px;
+	overflow: hidden;
+	
+}
+
+.well-lg {
+	width: 100%;
+}
+
+.container h1 {
+	font-family: 'Anton', sans-serif !important;
+}
+
+.container h2 {
+	font-family: 'Anton', sans-serif !important;
+}
+
+.container p {
+	font-family: 'Fjalla One', sans-serif !important;
+}
