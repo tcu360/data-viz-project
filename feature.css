@@ -12,7 +12,7 @@
 }
 
 #banner {
-	background-image: url(http://del.h-cdn.co/assets/16/18/980x490/landscape-1462545626-macaroni-and-cheese-close-up.jpg);
+	background-image: url(https://i.imgsafe.org/11e4d70953.png);
 	background-repeat: repeat;
 	background-position: left top;
 	padding: 100px;
@@ -91,6 +91,11 @@ background-color: #EEEEEE;
 	font-size: 20px;
 	border-top: .5px solid black;
 }
+@media all and (max-width:1200px){
+	#banner{
+		background-image: url(https://i.imgsafe.org/11fa0bfae3.png);
+	}
+}
 @media all and (max-width:900px){
 	div.img{
 		width: 80%;
@@ -103,6 +108,9 @@ background-color: #EEEEEE;
 	#main-content{
 		height: 3000px;
 	}
+	#banner{
+		background-image: url(https://i.imgsafe.org/1208f88231.png);
+}
 	@media all and (max-width:650px){
 		#main-content{
 			height: 2800px;
