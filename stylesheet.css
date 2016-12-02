@@ -47,11 +47,15 @@ font-family: 'Ubuntu', sans-serif;
 	border: solid;
 	font-size: 14px;
 	overflow: hidden;
-	
 }
 
 .well-lg {
 	width: 100%;
+	height: 200px;
+	background-image:url(https://s-media-cache-ak0.pinimg.com/236x/0b/ff/40/0bff4002c7a0f1a080b1c938b552c0b1.jpg);
+	font-size: 25px;
+	color: #CC0000;
+	font-family: 'Ubuntu', sans-serif;table;
 }
 
 .container h1 {
