@@ -1,22 +1,23 @@
 #main-content{
 	margin: auto;
 	width: 80%;
+	height: 2400px;
 	background-color: white;
 	box-shadow: 1px 1px 8px #888888;
 }
 
 #feature-content{
 	margin: auto;
-	width: 80%;
+	width: 90%;
 }
 
 #banner {
-	background-image: url(http://del.h-cdn.co/assets/16/18/980x490/landscape-1462545626-macaroni-and-cheese-close-up.jpg);
+	background-image: url(https://i.imgsafe.org/11e4d70953.png);
 	background-repeat: repeat;
 	background-position: left top;
 	padding: 100px;
 	margin-bottom: 2px;
-}	
+}
 
 h1{
 	text-align: center;
@@ -30,23 +31,28 @@ h1{
 }
 
 
-.col-sm-6 img{
-	float: left;
-	border-radius: 50%;
-	width: 15%;
+div.img {
+		margin: 3%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
-.col-sm-6{
-	background: #F2F2F2;
+div.img:hover {
+    border: 1px solid #777;
 }
 
-#profile-pic{
-	width: 200px;
+div.img img {
+    width: 100%;
+    height: auto;
 }
 
-.bio{
-	float: right;
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
+
+
 
 p{
 	font-family: 'Ubuntu', sans-serif;
@@ -70,16 +76,44 @@ p{
 .dropdown-menu{
 	font-family: 'Oswald', sans-serif;
 }
+#team-info{
+	width: 90%;
+	margin: auto;
+	border-top: 1px solid black;
+}
 
 #footer {
-	width: 100%;
+	width: 80%;
 	height: 60px;
-  	text-align: center;
-  	background-color: #EEEEEE;
-  	font-family: 'Oswald', sans-serif;
-  	font-size: 20px;
+	text-align: center;
+background-color: #EEEEEE;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin: auto;
 	border-top: .5px solid black;
-  }
-
-
-
+}
+@media all and (max-width:1200px){
+	#banner{
+		background-image: url(https://i.imgsafe.org/11fa0bfae3.png);
+	}
+}
+@media all and (max-width:900px){
+	div.img{
+		width: 80%;
+	}
+	#main-content{
+		height: 3300px;
+	}
+}
+@media all and (max-width:800px){
+	#main-content{
+		height: 3000px;
+	}
+	#banner{
+		background-image: url(https://i.imgsafe.org/1208f88231.png);
+}
+	@media all and (max-width:650px){
+		#main-content{
+			height: 2800px;
+		}
+}
