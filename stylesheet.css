@@ -1,10 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
+@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu');
+body {
+background-color: #EEEEEE !important;
+}
+
+
 #banner {
-  background-image: url(http://del.h-cdn.co/assets/16/18/980x490/landscape-1462545626-macaroni-and-cheese-close-up.jpg);
-  height: 100px;
-  width: 100%;
+	background-image: url(http://del.h-cdn.co/assets/16/18/980x490/landscape-1462545626-macaroni-and-cheese-close-up.jpg);
+	background-repeat: repeat;
+	background-position: left top;
+	padding: 100px;
+	margin-bottom: 2px;
+}
+
+#textbox {
+font-family: 'Ubuntu', sans-serif;
+	font-size: 19px;
+	color: #4d0099;
+	width: 28%;
+	float: right;
+	padding:12px;
+}
+.navbar-default {
+	margin: auto;
+	font-size: 19px;
+	font-family: 'Oswald', sans-serif;
+}
+.navbar-default a{
+	color: black !important;
+}
+.navbar-default li:hover{
+	background-color: #7631a0;
+}
+.navbar-default li a:hover{
+	color: white !important;
+  }
+.dropdown-menu{
+	font-family: 'Oswald', sans-serif;
 }
 
 .col-sm-6 {
