@@ -83,12 +83,13 @@ p{
 }
 
 #footer {
-	width: 100%;
+	width: 80%;
 	height: 60px;
 	text-align: center;
 background-color: #EEEEEE;
 	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
+	margin: auto;
 	border-top: .5px solid black;
 }
 @media all and (max-width:1200px){
