@@ -8,11 +8,27 @@ background-color: #EEEEEE !important;
 
 
 #banner {
-	background-image: url(http://del.h-cdn.co/assets/16/18/980x490/landscape-1462545626-macaroni-and-cheese-close-up.jpg);
+		background-image: url(https://i.imgsafe.org/11e4d70953.png);
 	background-repeat: repeat;
 	background-position: left top;
 	padding: 100px;
 	margin-bottom: 2px;
+}
+
+@media all and (max-width:1200px){
+	#banner{
+		background-image: url(https://i.imgsafe.org/11fa0bfae3.png);
+	}
+}
+@media all and (max-width:900px){
+#main-content{
+		height: 3300px;
+	}
+}
+@media all and (max-width:800px){
+	#banner{
+		background-image: url(https://i.imgsafe.org/1208f88231.png);
+}
 }
 
 #textbox {

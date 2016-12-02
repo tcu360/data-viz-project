@@ -1,50 +1,119 @@
-#feature-content{
+#main-content{
 	margin: auto;
 	width: 80%;
+	height: 2400px;
+	background-color: white;
+	box-shadow: 1px 1px 8px #888888;
 }
 
-#header{
-	width: 80%;
+#feature-content{
+	margin: auto;
+	width: 90%;
+}
+
+#banner {
+	background-image: url(https://i.imgsafe.org/11e4d70953.png);
+	background-repeat: repeat;
+	background-position: left top;
+	padding: 100px;
+	margin-bottom: 2px;
 }
 
 h1{
 	text-align: center;
-	padding: 50px;
+	padding: 25px;
+	margin: 0px;
+	font-family: 'Oswald', sans-serif;
 }
 
-#feature-description{
-	width: 80%;
+#feature-description,  #feature-data{
 	margin-bottom: 50px;
 }
 
-#feature-data{
-	width: 80%;
-	margin-bottom: 50px;
+
+div.img {
+		margin: 3%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
-.col-sm-6 img{
-	float: left;
-	border-radius: 50%;
-	width: 15%;
+div.img:hover {
+    border: 1px solid #777;
 }
 
-.col-sm-6{
-	background: #F2F2F2;
+div.img img {
+    width: 100%;
+    height: auto;
 }
 
-#profile-pic{
-	width: 200px;
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 
-.bio{
-	float: right;
-}
+
 
 p{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 19px;
-	color: #4d0099;
 }
 
+.navbar-default {
+	margin: auto;
+	font-size: 19px;
+	font-family: 'Oswald', sans-serif;
+}
+.navbar-default a{
+	color: black !important;
+}
+.navbar-default li:hover{
+	background-color: #7631a0;
+}
+.navbar-default li a:hover{
+	color: white !important;
+  }
+.dropdown-menu{
+	font-family: 'Oswald', sans-serif;
+}
+#team-info{
+	width: 90%;
+	margin: auto;
+	border-top: 1px solid black;
+}
 
-
+#footer {
+	width: 80%;
+	height: 60px;
+	text-align: center;
+background-color: #EEEEEE;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin: auto;
+	border-top: .5px solid black;
+}
+@media all and (max-width:1200px){
+	#banner{
+		background-image: url(https://i.imgsafe.org/11fa0bfae3.png);
+	}
+}
+@media all and (max-width:900px){
+	div.img{
+		width: 80%;
+	}
+	#main-content{
+		height: 3300px;
+	}
+}
+@media all and (max-width:800px){
+	#main-content{
+		height: 3000px;
+	}
+	#banner{
+		background-image: url(https://i.imgsafe.org/1208f88231.png);
+}
+	@media all and (max-width:650px){
+		#main-content{
+			height: 2800px;
+		}
+}
