@@ -1,0 +1,23 @@
+#banner {
+	background-image: url(https://i.imgsafe.org/11e4d70953.png);
+	background-repeat: repeat;
+	background-position: left top;
+	padding: 100px;
+	margin-bottom: 2px;
+}
+
+@media all and (max-width:1200px){
+	#banner{
+		background-image: url(https://i.imgsafe.org/11fa0bfae3.png);
+	}
+}
+@media all and (max-width:900px){
+#main-content{
+		height: 3300px;
+	}
+}
+@media all and (max-width:800px){
+	#banner{
+		background-image: url(https://i.imgsafe.org/1208f88231.png);
+}
+}
