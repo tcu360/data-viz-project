@@ -72,7 +72,7 @@ margin: auto !important;
 	border-color: #000;
 	border: solid;
 	font-size: 15px;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 #footer {
