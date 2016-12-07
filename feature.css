@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 #main-content{
 	margin: auto;
 	width: 80%;
@@ -35,6 +37,7 @@ h1{
 }
 
 
+
 div.img {
 		margin: 3%;
     border: 1px solid #ccc;
@@ -42,9 +45,6 @@ div.img {
     width: 180px;
 }
 
-div.img:hover {
-    border: 1px solid #777;
-}
 
 div.img img {
     width: 100%;
@@ -85,18 +85,19 @@ p{
 }
 
 #footer {
-		width: 100%;
+		width: 80%;
 		height: 50px;
   	text-align: center;
   background-color: #482A6A;
-  	font-family: 'Oswald', sans-serif;
+  	font-family: 'Oswald', sans-serif !important;
   	font-size: 20px;
-		margin-top: 18px;
+		margin:auto;
   }
 	#footer a{
 		color: white;
+		font-family: 'Oswald', sans-serif;
 	}
-}
+
 @media all and (max-width:1200px){
 	#banner{
 		background-image: url(https://i.imgsafe.org/11fa0bfae3.png);
@@ -104,21 +105,21 @@ p{
 }
 @media all and (max-width:900px){
 	div.img{
-		width: 80%;
+		width: 40%;
 	}
 	#main-content{
-		height: 3300px;
+		height: 2800px;
 	}
 }
 @media all and (max-width:800px){
 	#main-content{
-		height: 3000px;
+		height: 2300px;
 	}
 	#banner{
 		background-image: url(https://i.imgsafe.org/1208f88231.png);
 }
 	@media all and (max-width:650px){
 		#main-content{
-			height: 2800px;
+			height: 2100px;
 		}
 }
