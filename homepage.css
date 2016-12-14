@@ -10,6 +10,9 @@ width: 80%;
 margin: auto;
 box-shadow: 1px 1px 8px #888888;
 }
+.carousel-caption{
+	background-color: rgba(77, 7, 94, 0.5);
+}
 
 #banner {
 	background-image: url(https://i.imgsafe.org/11e4d70953.png);
