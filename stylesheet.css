@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu');
+body {
+background-color: #EEEEEE !important;
+}
+
+#maincontainer {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	box-shadow: 1px 1px 8px #888888;
+}
+
+#banner {
+		background-image: url(https://i.imgsafe.org/11e4d70953.png);
+	background-repeat: repeat;
+	background-position: left top;
+	padding: 100px;
+	margin-bottom: 2px;
+}
+
+@media all and (max-width:1200px){
+	#banner{
+		background-image: url(https://i.imgsafe.org/11fa0bfae3.png);
+	}
+}
+@media all and (max-width:900px){
+#main-content{
+		height: 3300px;
+	}
+}
+@media all and (max-width:800px){
+	#banner{
+		background-image: url(https://i.imgsafe.org/1208f88231.png);
+}
+}
+
+.navbar-default {
+	margin: auto;
+	font-size: 19px;
+	font-family: 'Oswald', sans-serif;
+}
+.navbar-default a{
+	color: black !important;
+}
+.navbar-default li:hover{
+	background-color: #7631a0;
+}
+.navbar-default li a:hover{
+	color: white !important;
+  }
+.dropdown-menu{
+	font-family: 'Oswald', sans-serif;
+}
+
+.container{
+width: 80% !important;
+margin: auto !important;
+}
+.col-sm-6 {
+	height: 300px;
+	border: solid #000 2px !important;
+	font-family: 'Ubuntu' , sans-serif;
+  font-size: 14px;
+}
+
+@media all and (max-width:1180px){
+	.col-sm-6{
+		height: 365px;
+	}
+}
+	@media all and (max-width:980px){
+		.col-sm-6{
+			height: 445px;
+		}
+}
+@media all and (max-width:800px){
+	.col-sm-6{
+		height: 495px;
+	}
+}
+
+@media all and (max-width:767px){
+	.col-sm-6{
+		height: 315px;
+	}
+
+}
+@media all and (max-width:700px){
+	.col-sm-6{
+		height: 395px;
+	}
+}
+#aboutthesite{
+	width:80%;
+	font-size: 21px;
+	margin-bottom: 13px;
+	margin-top: 13px;
+	font-family: 'Ubuntu' , sans-serif;
+	margin-bottom: 50px;
+}
+
+#footer {
+		width: 100%;
+		height: 50px;
+  	text-align: center;
+  background-color: #482A6A;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 20px;
+		margin-top: 18px;
+  }
+	#footer a{
+		color: white;
+	}
+
+
+.container h1 {
+	font-family: 'Oswald', sans-serif !important;
+}
+
+.container h2 {
+	font-family: 'Oswald', sans-serif !important;
+}

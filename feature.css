@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+#main-content{
+	margin: auto;
+	width: 80%;
+	background-color: white;
+	box-shadow: 1px 1px 8px #888888;
+}
+
+#feature-content{
+	margin: auto;
+	width: 90%;
+}
+
+#feature-data {
+	margin: auto;
+}
+
+#banner {
+	background-image: url(https://i.imgsafe.org/11e4d70953.png);
+	background-repeat: repeat;
+	background-position: left top;
+	padding: 100px;
+	margin-bottom: 2px;
+}
+
+h1{
+	text-align: center;
+	padding: 25px;
+	margin: 0px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#feature-description,  #feature-data{
+	margin-bottom: 50px;
+}
+
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 19px;
+}
+
+.navbar-default {
+	margin: auto;
+	font-size: 19px;
+	font-family: 'Oswald', sans-serif;
+}
+.navbar-default a{
+	color: black !important;
+}
+.navbar-default li:hover{
+	background-color: #7631a0;
+}
+.navbar-default li a:hover{
+	color: white !important;
+  }
+.dropdown-menu{
+	font-family: 'Oswald', sans-serif;
+}
+#team-info{
+	width: 90%;
+	margin: auto;
+	border-top: 1px solid black;
+}
+
+
+#footer {
+		width: 80%;
+		height: 50px;
+  	text-align: center;
+  background-color: #482A6A;
+  	font-family: 'Oswald', sans-serif !important;
+  	font-size: 20px;
+		margin:auto;
+  }
+	#footer a{
+		color: white;
+		font-family: 'Oswald', sans-serif;
+	}
+
+
+@media all and (max-width:1200px){
+	#banner{
+		background-image: url(https://i.imgsafe.org/11fa0bfae3.png);
+	}
+}
+
+@media all and (max-width:800px){
+
+	#banner{
+		background-image: url(https://i.imgsafe.org/1208f88231.png);
+}
+
+}
